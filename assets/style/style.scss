@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background: url(../images/contact-robot.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container {
+    width: 600px;
+    margin-left: auto;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.title-header {
+    margin-bottom: 10px;
+    display: inline-block;
+    text-align: left;
+    margin-left: 169.59px;
+    margin-bottom: 20px;
+    h2{
+        font-weight: 380;
+    }
+    p{
+        font-weight: 100;
+    }
+}
+
+.contact-form {
+    text-align: center;
+}
+
+.php-message {
+    font-size: 18px;
+    color: #aa2e00;
+    margin-top: 20px;
+}
+
+.form-message {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 258px;
+    height: 100px;
+    padding: 4px 0px 4px 4px;
+    -webkit-box-shadow: 2px 2px 4px 0px rgba(193, 193, 193, 1);
+    -moz-box-shadow: 2px 2px 4px 0px rgba(193, 193, 193, 1);
+    box-shadow: 2px 2px 4px 0px rgba(193, 193, 193, 1);
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 8px;
+    background: #ecf0f3;
+    font-size: 15px;
+
+}
+
+.formelement {
+    display: block;
+    margin-left: 170px;
+    padding: 4px 0px 4px 4px;
+    margin-bottom: 5px;
+    -webkit-box-shadow: 2px 2px 4px 0px rgba(193, 193, 193, 1);
+    -moz-box-shadow: 2px 2px 4px 0px rgba(193, 193, 193, 1);
+    box-shadow: 2px 2px 4px 0px rgba(193, 193, 193, 1);
+    border: none;
+    border-radius: 3px;
+    height: 18px;
+    margin-bottom: 8px;
+    background: #ecf0f3;
+    font-size: 15px;
+}
+
+.submit-button {
+    -webkit-box-shadow: 2px 2px 4px 0px rgba(193, 193, 193, 1);
+    -moz-box-shadow: 2px 2px 4px 0px rgba(193, 193, 193, 1);
+    box-shadow: 2px 2px 4px 0px rgba(193, 193, 193, 1);
+    background: #aa2e00;
+    width: 100px;
+    padding: 6px;
+    border-radius: 9px;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 700;
+    margin-left: 163px;
+}
